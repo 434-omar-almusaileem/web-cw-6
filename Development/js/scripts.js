@@ -38,5 +38,22 @@ let book1 =[
 getBookById(book1, 2)
 
 
+let products = [];
+
+let name = prompt("اسم السلعه");
+
+while (name !="انتهيت") {
+    let price = prompt("ادخل السعر ");
+    let qunatity = prompt("الكمية");
+
+    products.push({name2: name, price2: price, qunatity2: qunatity})
+
+  name = prompt("اسم السلعه")
+}
+for(l of products ){
+    console.log(l.name2+" "+l.price2+" "+l.qunatity2)
+}
+
+
 
     
